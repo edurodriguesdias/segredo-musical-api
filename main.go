@@ -18,9 +18,9 @@ func main() {
 	router.HandleFunc("/sound/random", getRandomSound)
 	router.HandleFunc("/sound/random/{genre}", getRandomSoundByGenre)
 
-	fmt.Println("API runing at port 3000")
+	fmt.Println("API runing at port 80")
 
-	log.Fatal(http.ListenAndServe(":3000", router))
+	log.Fatal(http.ListenAndServe(":80", router))
 }
 
 type Sounds struct {
