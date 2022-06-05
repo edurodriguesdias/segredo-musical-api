@@ -14,13 +14,14 @@ import (
 
 func main() {
 	router := mux.NewRouter()
+	port := os.Getenv("PORT")
 
 	router.HandleFunc("/sound/random", getRandomSound)
 	router.HandleFunc("/sound/random/{genre}", getRandomSoundByGenre)
 
-	fmt.Println("API runing at port 80")
+	fmt.Println("API runing at port " + port)
 
-	log.Fatal(http.ListenAndServe(":"+os.Getenv("PORT"), router))
+	log.Fatal(http.ListenAndServe(":"+port, router))
 }
 
 type Sounds struct {
