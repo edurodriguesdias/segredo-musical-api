@@ -20,7 +20,7 @@ func main() {
 
 	fmt.Println("API runing at port 80")
 
-	log.Fatal(http.ListenAndServe(":80", router))
+	log.Fatal(http.ListenAndServe(":"+os.Getenv("PORT"), router))
 }
 
 type Sounds struct {
