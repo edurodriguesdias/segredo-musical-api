@@ -59,7 +59,7 @@ func getRandomSound(w http.ResponseWriter, r *http.Request) {
 
 	var sounds Sounds
 
-	w.WriteHeader(http.StatusCreated)
+	w.WriteHeader(http.StatusOK)
 
 	json.Unmarshal(byteValue, &sounds)
 
