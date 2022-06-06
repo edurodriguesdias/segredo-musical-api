@@ -1,30 +1,14 @@
 {
     "sounds": [
         {
-            "music": "Nada vai mudar",
-            "genre": "Disney",
-            "movie": "Frozen 2",
-            "verse_singer": "Olaf",
-            "media": {
-                "sound": "https://my-bucket.s3.us-west-2.amazonaws.com/sounds/vejo-porta-abrir-olaf.mp3",
-                "picture": {
-                    "small": "https://my-bucket.s3.us-west-2.amazonaws.com/sounds/disney/frozen2/vejo-porta-abrir-olaf.png",
-                    "medium": "https://my-bucket.s3.us-west-2.amazonaws.com/sounds/disney/frozen2/vejo-porta-abrir-olaf.png",
-                    "large": "https://my-bucket.s3.us-west-2.amazonaws.com/sounds/disney/frozen2/vejo-porta-abrir-olaf.png"
-                }
-            }
-        },
-        {
             "music": "Não Falamos do Bruno",
             "genre": "Disney",
             "movie": "Encanto",
-            "verse_singer": "pepa",
+            "verse_singer": "Pepa",
             "media": {
-                "sound": "https://my-bucket.s3.us-west-2.amazonaws.com/sounds/nao-falamos-bruno-pepa.mp3",
+                "sound": "https://segredo-musical.s3.us-east-2.amazonaws.com/sounds/disney/encanto/nao-falamos-do-bruno-pepa/nao-falamos-bruno-pepa.mp3",
                 "picture": {
-                    "small": "https://my-bucket.s3.us-west-2.amazonaws.com/sounds/disney/encanto/nao-falamos-bruno-pepa.png",
-                    "medium": "https://my-bucket.s3.us-west-2.amazonaws.com/sounds/disney/encanto/nao-falamos-bruno-pepa.png",
-                    "large": "https://my-bucket.s3.us-west-2.amazonaws.com/sounds/disney/encanto/nao-falamos-bruno-pepa.png"
+                    "large": "https://segredo-musical.s3.us-east-2.amazonaws.com/sounds/disney/encanto/nao-falamos-do-bruno-pepa/4d84d0c7-95dc-4bee-bfab-5e571a8438e4.png"
                 }
             }
         }
